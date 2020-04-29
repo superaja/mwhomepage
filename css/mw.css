@@ -1,0 +1,95 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  /*padding-top: 3.5rem; */
+  padding-top: 100px
+}
+
+.a {
+  color: blue;
+}
+
+.mwcallout 
+  {
+    background-color    : rgba(255,255,255,0.0);
+    height              : auto;
+    margin              : 0;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Roboto", Helvetica, Arial, serif;
+    font-weight         : 500;
+    font-style          : normal;
+    font-size           : 60.0px;
+    color               : rgba(126, 126, 126, 1.0);
+    text-align          : left;
+    letter-spacing      : 1.03px;
+    line-height         : 86.0px;
+  }
+
+.mwbg
+{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mwheading
+{
+  background-color    : rgba(255,255,255,0.0);
+  height              : auto;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 300;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(126, 126, 126, 1.0);
+  text-align          : justify;
+  letter-spacing      : 1.52px;
+  line-height         : 29.0px;
+}
+
+.jumbotron{
+  /*background: linear-gradient(#F49646, #EE656D); 
+  background: rgb(236, 232, 232); */
+  background:#343a40;
+  /*background: #fbdbd0;*/
+}
+
+.mwlogo{
+  background-color    : rgba(255,255,255,0.0);
+  height              : 100px;
+  width               : 100px;
+  margin              : 0;
+  border-radius       : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+
+.btn-primary {
+  background-color:#f07461;
+  border-color: #f07461;
+  color:#4d4d4d; }
+
+  .btn-primary:hover, body .btn-primary:focus {
+    border-color: #f07461;
+    background-color: #f07461;
+    color: #4d4d4d; }
+
+  .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:focus, body .btn-primary:active:hover {
+    border-color: #f07461;
+    background-color: #f07461;
+    color:#4d4d4d; }
+
+.mwh2{
+    background-color    : rgba(255,255,255,0.0);
+    font-family         : "Roboto", Helvetica, Arial, serif;
+    font-weight         : 300;
+    font-style          : normal;
+    color               : rgba(126, 126, 126, 1.0);
+    text-align          : left;
+}
